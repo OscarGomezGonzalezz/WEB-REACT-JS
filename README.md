@@ -1,50 +1,50 @@
-Este repositorio incluye el backend completo (carpeta `DeliverUS-Backend`) y el frontend de `owner` (carpeta `DeliverUS-Frontend-Owner`).
+This repository includes the complete backend (folder `DeliverUS-Backend`) and the `owner` frontend (folder `DeliverUS-Frontend-Owner`).
 
-## Preparación del entorno
+## Environment Setup
 
 ### a) Windows
 
-* Abra un terminal y ejecute el comando `npm run install:all:win`.
+* Open a terminal and run the command `npm run install:all:win`.
 
 ### b) Linux/MacOS
 
-* Abra un terminal y ejecute el comando `npm run install:all:bash`.
+* Open a terminal and run the command `npm run install:all:bash`.
 
-## Ejecución
+## Execution
 
 ### Backend
 
-* Para **rehacer las migraciones y seeders**, abra un terminal y ejecute el comando
+* To **redo migrations and seeders**, open a terminal and run the command
 
-    ```Bash
+    ```bash
     npm run migrate:backend
     ```
 
-* Para **ejecutarlo**, abra un terminal y ejecute el comando
+* To **run it**, open a terminal and run the command
 
-    ```Bash
+    ```bash
     npm run start:backend
     ```
 
 ### Frontend
 
-* Para **ejecutar la aplicación frontend de `owner`**, abra un nuevo terminal y ejecute el comando
+* To **run the `owner` frontend application**, open a new terminal and run the command
 
-    ```Bash
+    ```bash
     npm run start:frontend:owner
     ```
 
-## Depuración
+## Debugging
 
-* Para **depurar el backend**, asegúrese de que **NO** existe una instancia en ejecución, pulse en el botón `Run and Debug` de la barra lateral, seleccione `Debug Backend` en la lista desplegable, y pulse el botón de *Play*.
+* To **debug the backend**, ensure there is **NO** running instance, click on the `Run and Debug` button in the sidebar, select `Debug Backend` from the dropdown list, and click the *Play* button.
 
-* Para **depurar el frontend**, asegúrese de que **EXISTE** una instancia en ejecución del frontend que desee depurar, pulse en el botón `Run and Debug` de la barra lateral, seleccione `Debug Frontend` en la lista desplegable, y pulse el botón de *Play*.
+* To **debug the frontend**, ensure there **IS** a running instance of the frontend you want to debug, click on the `Run and Debug` button in the sidebar, select `Debug Frontend` from the dropdown list, and click the *Play* button.
 
-## Test
+## Testing
 
-* Para comprobar el correcto funcionamiento de backend puede ejecutar el conjunto de tests incluido a tal efecto. Para ello ejecute el siguiente comando:
+* To check the correct functioning of the backend, you can run the included set of tests. To do this, run the following command:
 
-    ```Bash
+    ```bash
     npm run test:backend
     ```
-**Advertencia: Los tests no pueden ser modificados.**
+**Warning: The tests cannot be modified.**
